@@ -1,0 +1,24 @@
+.recent-movies,
+.explore-movies {
+  margin-top: 20px; 
+  margin-left: 10%;
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  flex-direction: column; 
+  text-align: left;
+}
+
+.movie-header {
+  font-size: 36px; 
+  margin-bottom: 10px; 
+}
+
+.movie-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap; 
+  overflow-x: auto;
+  width: 100%; 
+}

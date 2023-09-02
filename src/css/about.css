@@ -1,0 +1,11 @@
+.main-section{
+    width: 50%;
+    margin-left: 25%;
+    height: 20vh;
+    margin-top: 10%;
+}
+h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}

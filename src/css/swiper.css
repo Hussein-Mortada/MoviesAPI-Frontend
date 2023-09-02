@@ -1,0 +1,40 @@
+
+.slide-container {
+    max-height: 300px;
+    display: flex;
+    gap: 20px;
+    align-items: center; 
+    margin-bottom: 20px;
+  }
+  
+  .left-half {
+    flex: 1; 
+    margin-left: 10%;
+    text-align: left;
+  }
+  .left-half h2{
+    font-weight: bold;
+    color: white;
+    
+    font-size: 3rem;
+  }
+  .right-half {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .right-half img {
+    width: 50%; 
+    object-fit: contain;
+    
+  }
+  .swiper-button-next , .swiper-button-prev {
+    color: #6e54ad;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #6e54ad;
+  }
+  .mySwiper{
+    z-index: 1;
+  }
